@@ -27,17 +27,29 @@ When building a ticketing system for flash sales, standard CRUD operations are n
 ## 📂 Project Structure
 
 \`\`\`
+
 ├── database/
+
 │   └── init.sql              # Database schema & Seed data
+
 ├── src/
+
 │   ├── config/               # Database connection setup
+
 │   ├── routes/               # API endpoint definitions
+
 │   ├── app/
+
 │   │   ├── controllers/      # Request validation & Response formatting
+
 │   │   └── services/         # Core business logic (Transactions, Locking)
+
 │   └── index.js              # Application entry point
+
 ├── package.json
+
 └── README.md
+
 \`\`\`
 
 ## ⚙️ How to Setup & Run
@@ -91,11 +103,17 @@ The server will run on \`http://localhost:3000\`
 
 **Example POST \`/api/v1/bookings\` Body:**
 \`\`\`json
+
 {
+
     "idempotencyKey": "uuid-v4-unique-string",
+
     "ticketCategoryId": "ticket-uuid",
+    
     "quantity": 2,
+    
     "voucherId": "voucher-uuid" 
+    
 }
 \`\`\`
 
