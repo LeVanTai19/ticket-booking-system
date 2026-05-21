@@ -26,7 +26,7 @@ When building a ticketing system for flash sales, standard CRUD operations are n
 
 ## 📂 Project Structure
 
-\`\`\`text
+\`\`\`
 ├── database/
 │   └── init.sql              # Database schema & Seed data
 ├── src/
@@ -60,12 +60,19 @@ npm install
 
 **4. Environment Variables**
 Create a \`.env\` file in the root directory and configure your database credentials:
+
 \`\`\`env
+
 PORT=3000
+
 DB_HOST=localhost
+
 DB_PORT=5432
+
 DB_USER=postgres
+
 DB_PASSWORD=your_db_password
+
 DB_NAME=flashsale_ticket_db
 \`\`\`
 
