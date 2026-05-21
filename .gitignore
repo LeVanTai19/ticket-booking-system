@@ -1,0 +1,19 @@
+# Bỏ qua thư mục node_modules (Chứa các thư viện đã cài đặt)
+node_modules/
+
+# Bỏ qua file chứa biến môi trường 
+.env
+
+# Bỏ qua các file log (Nhật ký lỗi của hệ thống sinh ra khi chạy)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Bỏ qua các file cấu hình riêng của hệ điều hành (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Bỏ qua các file cấu hình của phần mềm code (VS Code, WebStorm)
+.vscode/
+.idea/
