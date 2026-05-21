@@ -91,7 +91,7 @@ DB_NAME=flashsale_ticket_db
 **5. Start the server**
 \`\`\`bash
 npm start
-# or use: node src/index.js
+### or use: node src/index.js
 \`\`\`
 The server will run on \`http://localhost:3000\`
 
